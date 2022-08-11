@@ -1,0 +1,1 @@
+const buttonBefore=document.querySelector(".progress-bar__button--before"),buttonAfter=document.querySelector(".progress-bar__button--after"),viewport=document.documentElement.clientWidth;buttonAfter.removeAttribute("disabled"),viewport>=768&&buttonBefore.removeAttribute("disabled");

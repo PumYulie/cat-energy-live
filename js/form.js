@@ -1,0 +1,1 @@
+const formSubmitButton=document.querySelector(".form__button"),onSubmitOrderClick=function(t){alert(t.target)};formSubmitButton&&(formSubmitButton.hasAttribute("disabled")&&formSubmitButton.removeAttribute("disabled"),formSubmitButton.addEventListener("click",(t=>onSubmitOrderClick(t))));
